@@ -1,0 +1,150 @@
+match_id,date,season,city,venue,team1,team2,toss_winner,toss_decision,winner,result_type,result_margin,event_name,event_match_number,event_group,event_stage,player_of_match,overs,balls_per_over,gender,match_type,data_version
+951309,2016-03-09,2015/16,Dharamsala,Himachal Pradesh Cricket Association Stadium,Bangladesh,Netherlands,Netherlands,field,Bangladesh,runs,8.0,World T20,3.0,A,First Round,Tamim Iqbal,20,6,male,T20,1.0.0
+951311,2016-03-09,2015/16,Dharamsala,Himachal Pradesh Cricket Association Stadium,Ireland,Oman,Ireland,bat,Oman,wickets,2.0,World T20,4.0,A,First Round,Amir Ali,20,6,male,T20,1.0.0
+951313,2016-03-10,2015/16,Nagpur,"Vidarbha Cricket Association Stadium, Jamtha",Scotland,Zimbabwe,Zimbabwe,bat,Zimbabwe,runs,11.0,World T20,5.0,B,First Round,WP Masakadza,20,6,male,T20,1.0.0
+951319,2016-03-11,2015/16,Dharamsala,Himachal Pradesh Cricket Association Stadium,Bangladesh,Ireland,Ireland,field,,,,World T20,8.0,A,First Round,,20,6,male,T20,1.0.0
+951323,2016-03-12,2015/16,Nagpur,"Vidarbha Cricket Association Stadium, Jamtha",Hong Kong,Scotland,Hong Kong,bat,Scotland,wickets,8.0,World T20,10.0,B,First Round,MW Machan,20,6,male,T20,1.0.0
+951325,2016-03-13,2015/16,Dharamsala,Himachal Pradesh Cricket Association Stadium,Ireland,Netherlands,Ireland,field,Netherlands,runs,12.0,World T20,11.0,A,First Round,PA van Meekeren,20,6,male,T20,1.0.0
+951327,2016-03-13,2015/16,Dharamsala,Himachal Pradesh Cricket Association Stadium,Bangladesh,Oman,Oman,field,Bangladesh,runs,54.0,World T20,12.0,A,First Round,Tamim Iqbal,20,6,male,T20,1.0.0
+951329,2016-03-15,2015/16,Nagpur,"Vidarbha Cricket Association Stadium, Jamtha",India,New Zealand,New Zealand,bat,New Zealand,runs,47.0,World T20,13.0,2,Super 10,MJ Santner,20,6,male,T20,1.0.0
+951331,2016-03-16,2015/16,Mumbai,Wankhede Stadium,England,West Indies,West Indies,field,West Indies,wickets,6.0,World T20,15.0,1,Super 10,CH Gayle,20,6,male,T20,1.0.0
+951333,2016-03-16,2015/16,Kolkata,Eden Gardens,Bangladesh,Pakistan,Pakistan,bat,Pakistan,runs,55.0,World T20,14.0,2,Super 10,Shahid Afridi,20,6,male,T20,1.0.0
+951337,2016-03-18,2015/16,Dharamsala,Himachal Pradesh Cricket Association Stadium,Australia,New Zealand,New Zealand,bat,New Zealand,runs,8.0,World T20,17.0,2,Super 10,MJ McClenaghan,20,6,male,T20,1.0.0
+951339,2016-03-18,2015/16,Mumbai,Wankhede Stadium,England,South Africa,England,field,England,wickets,2.0,World T20,18.0,1,Super 10,JE Root,20,6,male,T20,1.0.0
+951341,2016-03-19,2015/16,Kolkata,Eden Gardens,India,Pakistan,India,field,India,wickets,6.0,World T20,19.0,2,Super 10,V Kohli,20,6,male,T20,1.0.0
+951345,2016-03-20,2015/16,Bangalore,M Chinnaswamy Stadium,Sri Lanka,West Indies,West Indies,field,West Indies,wickets,7.0,World T20,21.0,1,Super 10,ADS Fletcher,20,6,male,T20,1.0.0
+951347,2016-03-21,2015/16,Bangalore,M Chinnaswamy Stadium,Australia,Bangladesh,Australia,field,Australia,wickets,3.0,World T20,22.0,2,Super 10,A Zampa,20,6,male,T20,1.0.0
+951349,2016-03-22,2015/16,Chandigarh,"Punjab Cricket Association IS Bindra Stadium, Mohali",New Zealand,Pakistan,New Zealand,bat,New Zealand,runs,22.0,World T20,23.0,2,Super 10,MJ Guptill,20,6,male,T20,1.0.0
+951353,2016-03-23,2015/16,Bangalore,M Chinnaswamy Stadium,India,Bangladesh,Bangladesh,field,India,runs,1.0,World T20,25.0,2,Super 10,R Ashwin,20,6,male,T20,1.0.0
+951355,2016-03-25,2015/16,Chandigarh,"Punjab Cricket Association IS Bindra Stadium, Mohali",Australia,Pakistan,Australia,bat,Australia,runs,21.0,World T20,26.0,2,Super 10,JP Faulkner,20,6,male,T20,1.0.0
+951357,2016-03-25,2015/16,Nagpur,"Vidarbha Cricket Association Stadium, Jamtha",South Africa,West Indies,West Indies,field,West Indies,wickets,3.0,World T20,27.0,1,Super 10,MN Samuels,20,6,male,T20,1.0.0
+951359,2016-03-26,2015/16,Kolkata,Eden Gardens,Bangladesh,New Zealand,New Zealand,bat,New Zealand,runs,75.0,World T20,28.0,2,Super 10,KS Williamson,20,6,male,T20,1.0.0
+951361,2016-03-26,2015/16,Delhi,Feroz Shah Kotla,England,Sri Lanka,Sri Lanka,field,England,runs,10.0,World T20,29.0,1,Super 10,JC Buttler,20,6,male,T20,1.0.0
+951363,2016-03-27,2015/16,Chandigarh,"Punjab Cricket Association IS Bindra Stadium, Mohali",India,Australia,Australia,bat,India,wickets,6.0,World T20,31.0,2,Super 10,V Kohli,20,6,male,T20,1.0.0
+951367,2016-03-28,2015/16,Delhi,Feroz Shah Kotla,South Africa,Sri Lanka,South Africa,field,South Africa,wickets,8.0,World T20,32.0,1,Super 10,AM Phangiso,20,6,male,T20,1.0.0
+951369,2016-03-30,2015/16,Delhi,Feroz Shah Kotla,England,New Zealand,England,field,England,wickets,7.0,World T20,,,Semi Final,JJ Roy,20,6,male,T20,1.0.0
+951371,2016-03-31,2015/16,Mumbai,Wankhede Stadium,India,West Indies,West Indies,field,West Indies,wickets,7.0,World T20,,,Semi Final,LMP Simmons,20,6,male,T20,1.0.0
+951373,2016-04-03,2015/16,Kolkata,Eden Gardens,England,West Indies,West Indies,field,West Indies,wickets,4.0,World T20,,,Final,MN Samuels,20,6,male,T20,1.0.0
+1273712,2021-10-17,2021/22,Al Amarat,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Papua New Guinea,Oman,Oman,field,Oman,wickets,10.0,ICC Men's T20 World Cup,1.0,B,,Zeeshan Maqsood,20,6,male,T20,1.1.0
+1273713,2021-10-17,2021/22,Al Amarat,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Scotland,Bangladesh,Bangladesh,field,Scotland,runs,6.0,ICC Men's T20 World Cup,2.0,B,,CN Greaves,20,6,male,T20,1.1.0
+1273714,2021-10-18,2021/22,Abu Dhabi,"Zayed Cricket Stadium, Abu Dhabi",Netherlands,Ireland,Netherlands,bat,Ireland,wickets,7.0,ICC Men's T20 World Cup,3.0,A,,C Campher,20,6,male,T20,1.1.0
+1273715,2021-10-18,2021/22,Abu Dhabi,"Zayed Cricket Stadium, Abu Dhabi",Namibia,Sri Lanka,Sri Lanka,field,Sri Lanka,wickets,7.0,ICC Men's T20 World Cup,4.0,A,,M Theekshana,20,6,male,T20,1.1.0
+1273716,2021-10-19,2021/22,Al Amarat,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Scotland,Papua New Guinea,Scotland,bat,Scotland,runs,17.0,ICC Men's T20 World Cup,5.0,B,,RD Berrington,20,6,male,T20,1.1.0
+1273717,2021-10-19,2021/22,Al Amarat,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Bangladesh,Oman,Bangladesh,bat,Bangladesh,runs,26.0,ICC Men's T20 World Cup,6.0,B,,Shakib Al Hasan,20,6,male,T20,1.1.0
+1273718,2021-10-20,2021/22,Abu Dhabi,"Zayed Cricket Stadium, Abu Dhabi",Netherlands,Namibia,Namibia,field,Namibia,wickets,6.0,ICC Men's T20 World Cup,7.0,A,,D Wiese,20,6,male,T20,1.1.0
+1273719,2021-10-20,2021/22,Abu Dhabi,"Zayed Cricket Stadium, Abu Dhabi",Sri Lanka,Ireland,Ireland,field,Sri Lanka,runs,70.0,ICC Men's T20 World Cup,8.0,A,,PWH de Silva,20,6,male,T20,1.1.0
+1273720,2021-10-21,2021/22,Al Amarat,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Bangladesh,Papua New Guinea,Bangladesh,bat,Bangladesh,runs,84.0,ICC Men's T20 World Cup,9.0,B,,Shakib Al Hasan,20,6,male,T20,1.1.0
+1273721,2021-10-21,2021/22,Al Amarat,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Oman,Scotland,Oman,bat,Scotland,wickets,8.0,ICC Men's T20 World Cup,10.0,B,,JH Davey,20,6,male,T20,1.1.0
+1273722,2021-10-22,2021/22,Sharjah,Sharjah Cricket Stadium,Ireland,Namibia,Ireland,bat,Namibia,wickets,8.0,ICC Men's T20 World Cup,11.0,A,,D Wiese,20,6,male,T20,1.1.0
+1273723,2021-10-22,2021/22,Sharjah,Sharjah Cricket Stadium,Netherlands,Sri Lanka,Sri Lanka,field,Sri Lanka,wickets,8.0,ICC Men's T20 World Cup,12.0,A,,CBRLS Kumara,20,6,male,T20,1.1.0
+1273724,2021-10-23,2021/22,Abu Dhabi,"Zayed Cricket Stadium, Abu Dhabi",South Africa,Australia,Australia,field,Australia,wickets,5.0,ICC Men's T20 World Cup,13.0,1,,JR Hazlewood,20,6,male,T20,1.1.0
+1273725,2021-10-23,2021/22,Dubai,Dubai International Cricket Stadium,West Indies,England,England,field,England,wickets,6.0,ICC Men's T20 World Cup,14.0,1,,MM Ali,20,6,male,T20,1.1.0
+1273726,2021-10-24,2021/22,Sharjah,Sharjah Cricket Stadium,Bangladesh,Sri Lanka,Sri Lanka,field,Sri Lanka,wickets,5.0,ICC Men's T20 World Cup,15.0,1,,KIC Asalanka,20,6,male,T20,1.1.0
+1273727,2021-10-24,2021/22,Dubai,Dubai International Cricket Stadium,India,Pakistan,Pakistan,field,Pakistan,wickets,10.0,ICC Men's T20 World Cup,16.0,2,,Shaheen Shah Afridi,20,6,male,T20,1.1.0
+1273729,2021-10-26,2021/22,Dubai,Dubai International Cricket Stadium,West Indies,South Africa,South Africa,field,South Africa,wickets,8.0,ICC Men's T20 World Cup,18.0,1,,A Nortje,20,6,male,T20,1.1.0
+1273730,2021-10-26,2021/22,Sharjah,Sharjah Cricket Stadium,New Zealand,Pakistan,Pakistan,field,Pakistan,wickets,5.0,ICC Men's T20 World Cup,19.0,2,,Haris Rauf,20,6,male,T20,1.1.0
+1273731,2021-10-27,2021/22,Abu Dhabi,"Zayed Cricket Stadium, Abu Dhabi",Bangladesh,England,Bangladesh,bat,England,wickets,8.0,ICC Men's T20 World Cup,20.0,1,,JJ Roy,20,6,male,T20,1.1.0
+1273732,2021-10-27,2021/22,Abu Dhabi,"Zayed Cricket Stadium, Abu Dhabi",Scotland,Namibia,Namibia,field,Namibia,wickets,4.0,ICC Men's T20 World Cup,21.0,2,,R Trumpelmann,20,6,male,T20,1.1.0
+1273733,2021-10-28,2021/22,Dubai,Dubai International Cricket Stadium,Sri Lanka,Australia,Australia,field,Australia,wickets,7.0,ICC Men's T20 World Cup,22.0,1,,A Zampa,20,6,male,T20,1.1.0
+1273734,2021-10-29,2021/22,Sharjah,Sharjah Cricket Stadium,West Indies,Bangladesh,Bangladesh,field,West Indies,runs,3.0,ICC Men's T20 World Cup,23.0,1,,N Pooran,20,6,male,T20,1.1.0
+1273736,2021-10-30,2021/22,Sharjah,Sharjah Cricket Stadium,Sri Lanka,South Africa,South Africa,field,South Africa,wickets,4.0,ICC Men's T20 World Cup,25.0,1,,T Shamsi,20,6,male,T20,1.1.0
+1273737,2021-10-30,2021/22,Dubai,Dubai International Cricket Stadium,Australia,England,England,field,England,wickets,8.0,ICC Men's T20 World Cup,26.0,1,,CJ Jordan,20,6,male,T20,1.1.0
+1273739,2021-10-31,2021/22,Dubai,Dubai International Cricket Stadium,India,New Zealand,New Zealand,field,New Zealand,wickets,8.0,ICC Men's T20 World Cup,28.0,2,,IS Sodhi,20,6,male,T20,1.1.0
+1273740,2021-11-01,2021/22,Sharjah,Sharjah Cricket Stadium,England,Sri Lanka,Sri Lanka,field,England,runs,26.0,ICC Men's T20 World Cup,29.0,1,,JC Buttler,20,6,male,T20,1.1.0
+1273741,2021-11-02,2021/22,Abu Dhabi,"Zayed Cricket Stadium, Abu Dhabi",Bangladesh,South Africa,South Africa,field,South Africa,wickets,6.0,ICC Men's T20 World Cup,30.0,1,,K Rabada,20,6,male,T20,1.1.0
+1273742,2021-11-02,2021/22,Abu Dhabi,"Zayed Cricket Stadium, Abu Dhabi",Pakistan,Namibia,Pakistan,bat,Pakistan,runs,45.0,ICC Men's T20 World Cup,31.0,2,,Mohammad Rizwan,20,6,male,T20,1.1.0
+1273743,2021-11-03,2021/22,Dubai,Dubai International Cricket Stadium,New Zealand,Scotland,Scotland,field,New Zealand,runs,16.0,ICC Men's T20 World Cup,32.0,2,,MJ Guptill,20,6,male,T20,1.1.0
+1273745,2021-11-04,2021/22,Dubai,Dubai International Cricket Stadium,Bangladesh,Australia,Australia,field,Australia,wickets,8.0,ICC Men's T20 World Cup,34.0,1,,A Zampa,20,6,male,T20,1.1.0
+1273746,2021-11-04,2021/22,Abu Dhabi,"Zayed Cricket Stadium, Abu Dhabi",Sri Lanka,West Indies,West Indies,field,Sri Lanka,runs,20.0,ICC Men's T20 World Cup,35.0,1,,KIC Asalanka,20,6,male,T20,1.1.0
+1273747,2021-11-05,2021/22,Sharjah,Sharjah Cricket Stadium,New Zealand,Namibia,Namibia,field,New Zealand,runs,52.0,ICC Men's T20 World Cup,36.0,2,,JDS Neesham,20,6,male,T20,1.1.0
+1273748,2021-11-05,2021/22,Dubai,Dubai International Cricket Stadium,Scotland,India,India,field,India,wickets,8.0,ICC Men's T20 World Cup,37.0,2,,RA Jadeja,20,6,male,T20,1.1.0
+1273749,2021-11-06,2021/22,Abu Dhabi,"Zayed Cricket Stadium, Abu Dhabi",West Indies,Australia,Australia,field,Australia,wickets,8.0,ICC Men's T20 World Cup,38.0,1,,DA Warner,20,6,male,T20,1.1.0
+1273750,2021-11-06,2021/22,Sharjah,Sharjah Cricket Stadium,South Africa,England,England,field,South Africa,runs,10.0,ICC Men's T20 World Cup,39.0,1,,HE van der Dussen,20,6,male,T20,1.1.0
+1273752,2021-11-07,2021/22,Sharjah,Sharjah Cricket Stadium,Pakistan,Scotland,Pakistan,bat,Pakistan,runs,72.0,ICC Men's T20 World Cup,41.0,2,,Shoaib Malik,20,6,male,T20,1.1.0
+1273753,2021-11-08,2021/22,Dubai,Dubai International Cricket Stadium,Namibia,India,India,field,India,wickets,9.0,ICC Men's T20 World Cup,42.0,2,,RA Jadeja,20,6,male,T20,1.1.0
+1273754,2021-11-10,2021/22,Abu Dhabi,"Zayed Cricket Stadium, Abu Dhabi",England,New Zealand,New Zealand,field,New Zealand,wickets,5.0,ICC Men's T20 World Cup,,,Semi Final,DJ Mitchell,20,6,male,T20,1.1.0
+1273755,2021-11-11,2021/22,Dubai,Dubai International Cricket Stadium,Pakistan,Australia,Australia,field,Australia,wickets,5.0,ICC Men's T20 World Cup,,,Semi Final,MS Wade,20,6,male,T20,1.1.0
+1273756,2021-11-14,2021/22,Dubai,Dubai International Cricket Stadium,New Zealand,Australia,Australia,field,Australia,wickets,8.0,ICC Men's T20 World Cup,,,Final,MR Marsh,20,6,male,T20,1.1.0
+1298135,2022-10-16,2022/23,Geelong,"GMHBA Stadium, South Geelong, Victoria",Namibia,Sri Lanka,Sri Lanka,field,Namibia,runs,55.0,ICC Men's T20 World Cup,1.0,A,,JN Frylinck,20,6,male,T20,1.1.0
+1298136,2022-10-16,2022/23,Geelong,"GMHBA Stadium, South Geelong, Victoria",United Arab Emirates,Netherlands,United Arab Emirates,bat,Netherlands,wickets,3.0,ICC Men's T20 World Cup,2.0,A,,BFW de Leede,20,6,male,T20,1.1.0
+1298137,2022-10-17,2022/23,Hobart,"Bellerive Oval, Hobart",Scotland,West Indies,West Indies,field,Scotland,runs,42.0,ICC Men's T20 World Cup,3.0,B,,HG Munsey,20,6,male,T20,1.1.0
+1298138,2022-10-17,2022/23,Hobart,"Bellerive Oval, Hobart",Zimbabwe,Ireland,Ireland,field,Zimbabwe,runs,31.0,ICC Men's T20 World Cup,4.0,B,,Sikandar Raza,20,6,male,T20,1.1.0
+1298139,2022-10-18,2022/23,Geelong,"GMHBA Stadium, South Geelong, Victoria",Namibia,Netherlands,Namibia,bat,Netherlands,wickets,5.0,ICC Men's T20 World Cup,5.0,A,,BFW de Leede,20,6,male,T20,1.1.0
+1298140,2022-10-18,2022/23,Geelong,"GMHBA Stadium, South Geelong, Victoria",Sri Lanka,United Arab Emirates,United Arab Emirates,field,Sri Lanka,runs,79.0,ICC Men's T20 World Cup,6.0,A,,P Nissanka,20,6,male,T20,1.1.0
+1298141,2022-10-19,2022/23,Hobart,"Bellerive Oval, Hobart",Scotland,Ireland,Scotland,bat,Ireland,wickets,6.0,ICC Men's T20 World Cup,7.0,B,,C Campher,20,6,male,T20,1.1.0
+1298142,2022-10-19,2022/23,Hobart,"Bellerive Oval, Hobart",West Indies,Zimbabwe,West Indies,bat,West Indies,runs,31.0,ICC Men's T20 World Cup,8.0,B,,AS Joseph,20,6,male,T20,1.1.0
+1298143,2022-10-20,2022/23,Geelong,"GMHBA Stadium, South Geelong, Victoria",Sri Lanka,Netherlands,Sri Lanka,bat,Sri Lanka,runs,16.0,ICC Men's T20 World Cup,9.0,A,,BKG Mendis,20,6,male,T20,1.1.0
+1298144,2022-10-20,2022/23,Geelong,"GMHBA Stadium, South Geelong, Victoria",United Arab Emirates,Namibia,United Arab Emirates,bat,United Arab Emirates,runs,7.0,ICC Men's T20 World Cup,10.0,A,,Waseem Muhammad,20,6,male,T20,1.1.0
+1298145,2022-10-21,2022/23,Hobart,"Bellerive Oval, Hobart",West Indies,Ireland,West Indies,bat,Ireland,wickets,9.0,ICC Men's T20 World Cup,11.0,B,,GJ Delany,20,6,male,T20,1.1.0
+1298146,2022-10-21,2022/23,Hobart,"Bellerive Oval, Hobart",Scotland,Zimbabwe,Scotland,bat,Zimbabwe,wickets,5.0,ICC Men's T20 World Cup,12.0,B,,Sikandar Raza,20,6,male,T20,1.1.0
+1298147,2022-10-22,2022/23,Sydney,Sydney Cricket Ground,New Zealand,Australia,Australia,field,New Zealand,runs,89.0,ICC Men's T20 World Cup,13.0,1,,DP Conway,20,6,male,T20,1.1.0
+1298149,2022-10-23,2022/23,Hobart,"Bellerive Oval, Hobart",Ireland,Sri Lanka,Ireland,bat,Sri Lanka,wickets,9.0,ICC Men's T20 World Cup,15.0,1,,BKG Mendis,20,6,male,T20,1.1.0
+1298150,2022-10-23,2022/23,Melbourne,Melbourne Cricket Ground,Pakistan,India,India,field,India,wickets,4.0,ICC Men's T20 World Cup,16.0,2,,V Kohli,20,6,male,T20,1.1.0
+1298151,2022-10-24,2022/23,Hobart,"Bellerive Oval, Hobart",Bangladesh,Netherlands,Netherlands,field,Bangladesh,runs,9.0,ICC Men's T20 World Cup,17.0,2,,Taskin Ahmed,20,6,male,T20,1.1.0
+1298152,2022-10-24,2022/23,Hobart,"Bellerive Oval, Hobart",Zimbabwe,South Africa,Zimbabwe,bat,,,,ICC Men's T20 World Cup,18.0,2,,,20,6,male,T20,1.1.0
+1298153,2022-10-25,2022/23,Perth,Perth Stadium,Sri Lanka,Australia,Australia,field,Australia,wickets,7.0,ICC Men's T20 World Cup,19.0,1,,MP Stoinis,20,6,male,T20,1.1.0
+1298154,2022-10-26,2022/23,Melbourne,Melbourne Cricket Ground,Ireland,England,England,field,Ireland,runs,5.0,ICC Men's T20 World Cup,20.0,1,,A Balbirnie,20,6,male,T20,1.1.0
+1298156,2022-10-27,2022/23,Sydney,Sydney Cricket Ground,South Africa,Bangladesh,South Africa,bat,South Africa,runs,104.0,ICC Men's T20 World Cup,22.0,2,,RR Rossouw,20,6,male,T20,1.1.0
+1298157,2022-10-27,2022/23,Sydney,Sydney Cricket Ground,India,Netherlands,India,bat,India,runs,56.0,ICC Men's T20 World Cup,23.0,2,,SA Yadav,20,6,male,T20,1.1.0
+1298158,2022-10-27,2022/23,Perth,Perth Stadium,Zimbabwe,Pakistan,Zimbabwe,bat,Zimbabwe,runs,1.0,ICC Men's T20 World Cup,24.0,2,,Sikandar Raza,20,6,male,T20,1.1.0
+1298161,2022-10-29,2022/23,Sydney,Sydney Cricket Ground,New Zealand,Sri Lanka,New Zealand,bat,New Zealand,runs,65.0,ICC Men's T20 World Cup,27.0,1,,GD Phillips,20,6,male,T20,1.1.0
+1298162,2022-10-30,2022/23,Brisbane,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Bangladesh,Zimbabwe,Bangladesh,bat,Bangladesh,runs,3.0,ICC Men's T20 World Cup,28.0,2,,Taskin Ahmed,20,6,male,T20,1.1.0
+1298163,2022-10-30,2022/23,Perth,Perth Stadium,Netherlands,Pakistan,Netherlands,bat,Pakistan,wickets,6.0,ICC Men's T20 World Cup,29.0,2,,Shadab Khan,20,6,male,T20,1.1.0
+1298164,2022-10-30,2022/23,Perth,Perth Stadium,India,South Africa,India,bat,South Africa,wickets,5.0,ICC Men's T20 World Cup,30.0,2,,L Ngidi,20,6,male,T20,1.1.0
+1298165,2022-10-31,2022/23,Brisbane,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Australia,Ireland,Ireland,field,Australia,runs,42.0,ICC Men's T20 World Cup,31.0,1,,AJ Finch,20,6,male,T20,1.1.0
+1298167,2022-11-01,2022/23,Brisbane,"Brisbane Cricket Ground, Woolloongabba, Brisbane",England,New Zealand,England,bat,England,runs,20.0,ICC Men's T20 World Cup,33.0,1,,JC Buttler,20,6,male,T20,1.1.0
+1298168,2022-11-02,2022/23,Adelaide,Adelaide Oval,Zimbabwe,Netherlands,Zimbabwe,bat,Netherlands,wickets,5.0,ICC Men's T20 World Cup,34.0,2,,MP O'Dowd,20,6,male,T20,1.1.0
+1298169,2022-11-02,2022/23,Adelaide,Adelaide Oval,India,Bangladesh,Bangladesh,field,India,runs,5.0,ICC Men's T20 World Cup,35.0,2,,V Kohli,20,6,male,T20,1.1.0
+1298170,2022-11-03,2022/23,Sydney,Sydney Cricket Ground,Pakistan,South Africa,Pakistan,bat,Pakistan,runs,33.0,ICC Men's T20 World Cup,36.0,2,,Shadab Khan,20,6,male,T20,1.1.0
+1298171,2022-11-04,2022/23,Adelaide,Adelaide Oval,New Zealand,Ireland,Ireland,field,New Zealand,runs,35.0,ICC Men's T20 World Cup,37.0,1,,KS Williamson,20,6,male,T20,1.1.0
+1298173,2022-11-05,2022/23,Sydney,Sydney Cricket Ground,Sri Lanka,England,Sri Lanka,bat,England,wickets,4.0,ICC Men's T20 World Cup,39.0,1,,AU Rashid,20,6,male,T20,1.1.0
+1298174,2022-11-06,2022/23,Adelaide,Adelaide Oval,Netherlands,South Africa,South Africa,field,Netherlands,runs,13.0,ICC Men's T20 World Cup,40.0,2,,CN Ackermann,20,6,male,T20,1.1.0
+1298175,2022-11-06,2022/23,Adelaide,Adelaide Oval,Bangladesh,Pakistan,Bangladesh,bat,Pakistan,wickets,5.0,ICC Men's T20 World Cup,41.0,2,,Shaheen Shah Afridi,20,6,male,T20,1.1.0
+1298176,2022-11-06,2022/23,Melbourne,Melbourne Cricket Ground,India,Zimbabwe,India,bat,India,runs,71.0,ICC Men's T20 World Cup,42.0,2,,SA Yadav,20,6,male,T20,1.1.0
+1298177,2022-11-09,2022/23,Sydney,Sydney Cricket Ground,New Zealand,Pakistan,New Zealand,bat,Pakistan,wickets,7.0,ICC Men's T20 World Cup,,,Semi Final,Mohammad Rizwan,20,6,male,T20,1.1.0
+1298178,2022-11-10,2022/23,Adelaide,Adelaide Oval,India,England,England,field,England,wickets,10.0,ICC Men's T20 World Cup,,,Semi Final,AD Hales,20,6,male,T20,1.1.0
+1298179,2022-11-13,2022/23,Melbourne,Melbourne Cricket Ground,Pakistan,England,England,field,England,wickets,5.0,ICC Men's T20 World Cup,,,Final,SM Curran,20,6,male,T20,1.1.0
+1415701,2024-06-01,2024,Dallas,"Grand Prairie Stadium, Dallas",Canada,United States of America,United States of America,field,United States of America,wickets,7.0,ICC Men's T20 World Cup,1.0,A,,Aaron Jones,20,6,male,T20,1.1.0
+1415702,2024-06-02,2024,Providence,"Providence Stadium, Guyana",Papua New Guinea,West Indies,West Indies,field,West Indies,wickets,5.0,ICC Men's T20 World Cup,2.0,C,,RL Chase,20,6,male,T20,1.1.0
+1415703,2024-06-02,2024,Bridgetown,"Kensington Oval, Bridgetown, Barbados",Oman,Namibia,Namibia,field,,,,ICC Men's T20 World Cup,3.0,B,,D Wiese,20,6,male,T20,1.1.0
+1415704,2024-06-03,2024,New York,"Nassau County International Cricket Stadium, New York",Sri Lanka,South Africa,Sri Lanka,bat,South Africa,wickets,6.0,ICC Men's T20 World Cup,4.0,D,,A Nortje,20,6,male,T20,1.1.0
+1415706,2024-06-04,2024,Bridgetown,"Kensington Oval, Bridgetown, Barbados",Scotland,England,Scotland,bat,,,,ICC Men's T20 World Cup,6.0,B,,,20,6,male,T20,1.1.0
+1415707,2024-06-04,2024,Dallas,"Grand Prairie Stadium, Dallas",Nepal,Netherlands,Netherlands,field,Netherlands,wickets,6.0,ICC Men's T20 World Cup,7.0,D,,TJG Pringle,20,6,male,T20,1.1.0
+1415708,2024-06-05,2024,New York,"Nassau County International Cricket Stadium, New York",Ireland,India,India,field,India,wickets,8.0,ICC Men's T20 World Cup,8.0,A,,JJ Bumrah,20,6,male,T20,1.1.0
+1415709,2024-06-05,2024,Providence,"Providence Stadium, Guyana",Papua New Guinea,Uganda,Uganda,field,Uganda,wickets,3.0,ICC Men's T20 World Cup,9.0,C,,Riazat Ali Shah,20,6,male,T20,1.1.0
+1415710,2024-06-05,2024,Bridgetown,"Kensington Oval, Bridgetown, Barbados",Australia,Oman,Oman,field,Australia,runs,39.0,ICC Men's T20 World Cup,10.0,B,,MP Stoinis,20,6,male,T20,1.1.0
+1415711,2024-06-06,2024,Dallas,"Grand Prairie Stadium, Dallas",Pakistan,United States of America,United States of America,field,,,,ICC Men's T20 World Cup,11.0,A,,MD Patel,20,6,male,T20,1.1.0
+1415712,2024-06-06,2024,Bridgetown,"Kensington Oval, Bridgetown, Barbados",Namibia,Scotland,Namibia,bat,Scotland,wickets,5.0,ICC Men's T20 World Cup,12.0,B,,MA Leask,20,6,male,T20,1.1.0
+1415713,2024-06-07,2024,New York,"Nassau County International Cricket Stadium, New York",Canada,Ireland,Ireland,field,Canada,runs,12.0,ICC Men's T20 World Cup,13.0,A,,NR Kirton,20,6,male,T20,1.1.0
+1415715,2024-06-07,2024,Dallas,"Grand Prairie Stadium, Dallas",Sri Lanka,Bangladesh,Bangladesh,field,Bangladesh,wickets,2.0,ICC Men's T20 World Cup,15.0,D,,Rishad Hossain,20,6,male,T20,1.1.0
+1415716,2024-06-08,2024,New York,"Nassau County International Cricket Stadium, New York",Netherlands,South Africa,South Africa,field,South Africa,wickets,4.0,ICC Men's T20 World Cup,16.0,D,,DA Miller,20,6,male,T20,1.1.0
+1415717,2024-06-08,2024,Bridgetown,"Kensington Oval, Bridgetown, Barbados",Australia,England,England,field,Australia,runs,36.0,ICC Men's T20 World Cup,17.0,B,,A Zampa,20,6,male,T20,1.1.0
+1415718,2024-06-08,2024,Providence,"Providence Stadium, Guyana",West Indies,Uganda,West Indies,bat,West Indies,runs,134.0,ICC Men's T20 World Cup,18.0,C,,AJ Hosein,20,6,male,T20,1.1.0
+1415719,2024-06-09,2024,New York,"Nassau County International Cricket Stadium, New York",India,Pakistan,Pakistan,field,India,runs,6.0,ICC Men's T20 World Cup,19.0,A,,JJ Bumrah,20,6,male,T20,1.1.0
+1415720,2024-06-09,2024,North Sound,"Sir Vivian Richards Stadium, North Sound, Antigua",Oman,Scotland,Oman,bat,Scotland,wickets,7.0,ICC Men's T20 World Cup,20.0,B,,BJ McMullen,20,6,male,T20,1.1.0
+1415721,2024-06-10,2024,New York,"Nassau County International Cricket Stadium, New York",South Africa,Bangladesh,South Africa,bat,South Africa,runs,4.0,ICC Men's T20 World Cup,21.0,D,,H Klaasen,20,6,male,T20,1.1.0
+1415722,2024-06-11,2024,New York,"Nassau County International Cricket Stadium, New York",Canada,Pakistan,Pakistan,field,Pakistan,wickets,7.0,ICC Men's T20 World Cup,22.0,A,,Mohammad Amir,20,6,male,T20,1.1.0
+1415724,2024-06-11,2024,North Sound,"Sir Vivian Richards Stadium, North Sound, Antigua",Namibia,Australia,Australia,field,Australia,wickets,9.0,ICC Men's T20 World Cup,24.0,B,,A Zampa,20,6,male,T20,1.1.0
+1415725,2024-06-12,2024,New York,"Nassau County International Cricket Stadium, New York",United States of America,India,India,field,India,wickets,7.0,ICC Men's T20 World Cup,25.0,A,,Arshdeep Singh,20,6,male,T20,1.1.0
+1415726,2024-06-12,2024,Tarouba,"Brian Lara Stadium, Tarouba, Trinidad",West Indies,New Zealand,New Zealand,field,West Indies,runs,13.0,ICC Men's T20 World Cup,26.0,C,,SE Rutherford,20,6,male,T20,1.1.0
+1415727,2024-06-13,2024,Kingstown,"Arnos Vale Ground, Kingstown, St Vincent",Bangladesh,Netherlands,Netherlands,field,Bangladesh,runs,25.0,ICC Men's T20 World Cup,27.0,D,,Shakib Al Hasan,20,6,male,T20,1.1.0
+1415728,2024-06-13,2024,North Sound,"Sir Vivian Richards Stadium, North Sound, Antigua",Oman,England,England,field,England,wickets,8.0,ICC Men's T20 World Cup,28.0,B,,AU Rashid,20,6,male,T20,1.1.0
+1415731,2024-06-14,2024,Kingstown,"Arnos Vale Ground, Kingstown, St Vincent",South Africa,Nepal,Nepal,field,South Africa,runs,1.0,ICC Men's T20 World Cup,31.0,D,,T Shamsi,20,6,male,T20,1.1.0
+1415732,2024-06-14,2024,Tarouba,"Brian Lara Stadium, Tarouba, Trinidad",Uganda,New Zealand,New Zealand,field,New Zealand,wickets,9.0,ICC Men's T20 World Cup,32.0,C,,TG Southee,20,6,male,T20,1.1.0
+1415734,2024-06-15,2024,North Sound,"Sir Vivian Richards Stadium, North Sound, Antigua",England,Namibia,Namibia,field,England,runs,41.0,ICC Men's T20 World Cup,34.0,B,,HC Brook,20,6,male,T20,1.1.0
+1415735,2024-06-15,2024,Gros Islet,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",Scotland,Australia,Australia,field,Australia,wickets,5.0,ICC Men's T20 World Cup,35.0,B,,MP Stoinis,20,6,male,T20,1.1.0
+1415736,2024-06-16,2024,Lauderhill,"Central Broward Regional Park Stadium Turf Ground, Lauderhill",Ireland,Pakistan,Pakistan,field,Pakistan,wickets,3.0,ICC Men's T20 World Cup,36.0,A,,Shaheen Shah Afridi,20,6,male,T20,1.1.0
+1415737,2024-06-16,2024,Kingstown,"Arnos Vale Ground, Kingstown, St Vincent",Bangladesh,Nepal,Nepal,field,Bangladesh,runs,21.0,ICC Men's T20 World Cup,37.0,D,,Tanzim Hasan Sakib,20,6,male,T20,1.1.0
+1415738,2024-06-16,2024,Gros Islet,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",Sri Lanka,Netherlands,Netherlands,field,Sri Lanka,runs,83.0,ICC Men's T20 World Cup,38.0,D,,KIC Asalanka,20,6,male,T20,1.1.0
+1415739,2024-06-17,2024,Tarouba,"Brian Lara Stadium, Tarouba, Trinidad",Papua New Guinea,New Zealand,New Zealand,field,New Zealand,wickets,7.0,ICC Men's T20 World Cup,39.0,C,,LH Ferguson,20,6,male,T20,1.1.0
+1415741,2024-06-19,2024,North Sound,"Sir Vivian Richards Stadium, North Sound, Antigua",South Africa,United States of America,United States of America,field,South Africa,runs,18.0,ICC Men's T20 World Cup,41.0,2,,Q de Kock,20,6,male,T20,1.1.0
+1415742,2024-06-19,2024,Gros Islet,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",West Indies,England,England,field,England,wickets,8.0,ICC Men's T20 World Cup,42.0,2,,PD Salt,20,6,male,T20,1.1.0
+1415744,2024-06-20,2024,North Sound,"Sir Vivian Richards Stadium, North Sound, Antigua",Bangladesh,Australia,Australia,field,Australia,runs,28.0,ICC Men's T20 World Cup,44.0,1,,PJ Cummins,20,6,male,T20,1.1.0
+1415745,2024-06-21,2024,Gros Islet,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",South Africa,England,England,field,South Africa,runs,7.0,ICC Men's T20 World Cup,45.0,2,,Q de Kock,20,6,male,T20,1.1.0
+1415746,2024-06-21,2024,Bridgetown,"Kensington Oval, Bridgetown, Barbados",United States of America,West Indies,West Indies,field,West Indies,wickets,9.0,ICC Men's T20 World Cup,46.0,2,,RL Chase,20,6,male,T20,1.1.0
+1415747,2024-06-22,2024,North Sound,"Sir Vivian Richards Stadium, North Sound, Antigua",India,Bangladesh,Bangladesh,field,India,runs,50.0,ICC Men's T20 World Cup,47.0,1,,HH Pandya,20,6,male,T20,1.1.0
+1415749,2024-06-23,2024,Bridgetown,"Kensington Oval, Bridgetown, Barbados",United States of America,England,England,field,England,wickets,10.0,ICC Men's T20 World Cup,49.0,2,,AU Rashid,20,6,male,T20,1.1.0
+1415750,2024-06-23,2024,North Sound,"Sir Vivian Richards Stadium, North Sound, Antigua",West Indies,South Africa,South Africa,field,South Africa,wickets,3.0,ICC Men's T20 World Cup,50.0,2,,T Shamsi,20,6,male,T20,1.1.0
+1415751,2024-06-24,2024,Gros Islet,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",India,Australia,Australia,field,India,runs,24.0,ICC Men's T20 World Cup,51.0,1,,RG Sharma,20,6,male,T20,1.1.0
+1415754,2024-06-27,2024,Providence,"Providence Stadium, Guyana",India,England,England,field,India,runs,68.0,ICC Men's T20 World Cup,,,Semi Final,AR Patel,20,6,male,T20,1.1.0
+1415755,2024-06-29,2024,Bridgetown,"Kensington Oval, Bridgetown, Barbados",India,South Africa,India,bat,India,runs,7.0,ICC Men's T20 World Cup,,,Final,V Kohli,20,6,male,T20,1.1.0
