@@ -1,0 +1,8 @@
+# Large generated media (do not commit)
+media/
+*.mp4
+*.webm
+*.m4a
+*.opus
+*.mkv
+*.wav

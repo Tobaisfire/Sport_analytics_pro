@@ -1,0 +1,11 @@
+{
+  "match_id": 1415755,
+  "youtube_id": "gpLWO9Erl40",
+  "source_url": "https://www.youtube.com/watch?v=gpLWO9Erl40",
+  "source_note": "YouTube match highlights reel (English commentary; not ICC\u2019s \u201cEpic Montage\u201d 3yiWqnKl7lQ). Official ICC player: use Streamlit ICC buttons.",
+  "whisper_engine": "openai-whisper",
+  "whisper_model": "base",
+  "wav_path": "D:\\My-projects\\vishal_Sprt_project\\Sports_analytics\\models\\phase3\\media\\p3_gpLWO9Erl40_16k.wav",
+  "transcript_file": "D:\\My-projects\\vishal_Sprt_project\\Sports_analytics\\models\\phase3\\artifacts\\transcript_1415755_asr.txt",
+  "finished_at_utc": "2026-05-03T11:55:38.989095+00:00"
+}

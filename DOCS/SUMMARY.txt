@@ -1,0 +1,198 @@
+======================================================================
+  CRICKET ANALYTICS — MASTER PROJECT SUMMARY
+  What everything does, where it lives, what numbers matter
+======================================================================
+
+----------------------------------------------------------------------
+WHAT THIS PROJECT DOES (ONE LINE)
+----------------------------------------------------------------------
+Predicts the probability of every possible outcome on the next ball
+(dot / 1 / 2 / 3 / 4 / 6 / wicket) for any ICC T20 World Cup
+batter vs bowler pair — using 5 ML/DL models plus commentary text
+sentiment analysis.
+
+----------------------------------------------------------------------
+THE DATA
+----------------------------------------------------------------------
+Source: CricBuzz API  |  Years: 2021 (UAE), 2022 (Australia), 2024 (USA)
+
+Key files:
+  master_deliveries.csv                33,662 deliveries, all years
+  master_deliveries_with_commentary.csv  27,872 deliveries + commentary text
+  master_matches.csv                     149 matches
+  batting_stats.csv                      450 batters
+  bowling_stats.csv                      308 bowlers
+  matchup_stats.csv                    7,019 batter-bowler pairs
+  sentiment_stats.csv                  5,546 pairs with sentiment profiles
+  shot_region_stats.csv               12,780 shot type + region rows
+
+All CSVs live in: Sports_analytics/master_data/dataset/
+
+----------------------------------------------------------------------
+PHASE 1 — "Predict from scorecards"
+----------------------------------------------------------------------
+Data used:  master_deliveries.csv, batting/bowling stats, matchup_stats
+Input:      8 statistical features per batter-bowler pair
+Output:     7-class probability: {dot, 1, 2, 3, 4, 6, wicket}
+
+Models (in order of accuracy):
+  1. Empirical        — direct historical lookup          no test set
+  2. Random Forest    — 300 trees, balanced classes       31.4%
+  3. XGBoost P1       — 300 trees, max_depth=6            44.1%
+  4. LightGBM         — 500 trees, learning_rate=0.05     46.1%
+  5. LSTM (PyTorch)   — 6-ball sequence + 8 features      54.6%  <-- BEST
+
+The 8 features:
+  bat_sr, bat_avg, bat_bpct (boundary%)
+  bowl_econ, bowl_wktr (wicket rate)
+  mu_balls_log, mu_sr, mu_wktr (matchup stats)
+
+The LSTM reads the last 6 ball outcomes as a time sequence
+PLUS the 8 static features → best model by 8+ percentage points.
+
+----------------------------------------------------------------------
+PHASE 2 — "Predict from scorecards + commentary"
+----------------------------------------------------------------------
+Data used:  everything from Phase 1 + commentary text + sentiment_stats
+Extra input: 6 sentiment features from commentary text
+Output:     same 7-class probability + sentiment profile per pair
+
+Augmented XGBoost:  14 features (8 P1 + 6 sentiment)  →  48.2% (+4.43%)
+6 new features: avg_sentiment_score, pressure_index,
+                dominant_pct, beaten_pct, boundary_pct, dot_pct
+
+Sentiment Models (classify commentary text into 5 labels):
+  DOMINANT (+1.0)  →  e.g. "smashed over extra cover for six"
+  CONTROLLED (+0.5) → e.g. "timed that beautifully through the gap"
+  DEFENSIVE (0.0)  →  e.g. "pushed to mid-off"
+  MISTIMED (-0.5)  →  e.g. "top edge, nearly in the air"
+  BEATEN (-1.0)    →  e.g. "beaten outside off, sharp movement"
+
+Sentiment models:
+  Keyword Rules  — rule-based, 80 patterns, ground truth    (baseline)
+  VADER          — general NLP model                        18.8%
+  BiLSTM (DL)    — PyTorch bidirectional LSTM, 22K training 96.8%  <-- BEST
+
+Pressure Index = beaten_pct + mistimed_pct - dominant_pct
+Higher = bowler is genuinely troubling the batter.
+
+----------------------------------------------------------------------
+PHASE 3 — "Narrative + optional ASR" (demo layer, not a new predictor)
+----------------------------------------------------------------------
+Scope:   ICC Men's T20 World Cup 2024 final (India vs South Africa) in Tab 6
+Code:    models/phase3/prototype_match.py, download_and_transcribe.py
+Data:    models/phase3/artifacts/  (prototype JSON, sample ASR transcripts)
+Note:    Does NOT add a new {dot,1,2,3,4,6,wicket} model — Tabs 1-5 unchanged
+
+----------------------------------------------------------------------
+THE APP — 6 TABS
+----------------------------------------------------------------------
+Run:  streamlit run app.py  (from models/ultimate_model/)
+URL:  http://localhost:8501  (default; use whatever Streamlit prints)
+
+Tab 1 — Phase 1: Outcome Prediction
+  What: Bar chart showing probability of each outcome for every
+        selected model. Metric cards. Full probability table.
+  Control: Checkboxes in sidebar → toggle each of 6 models on/off
+
+Tab 2 — Phase 2: Shot Intelligence
+  What: Shot type %, region %, sentiment donut chart, Pressure Index
+  Control: Sentiment radio → Keyword Rules / VADER / BiLSTM
+
+Tab 3 — Phase 2: Augmented Outcome
+  What: Direct comparison P1 XGBoost vs P2 Augmented XGBoost.
+        Sentiment context shown with green/red message.
+        3-way chart: Empirical + XGB + Augmented.
+
+Tab 4 — Model Comparison
+  What: Accuracy + log-loss table all models. Expected Runs bar chart
+        for current batter-bowler. Sentiment comparison table.
+
+Tab 5 — Leaderboards & Rankings
+  What: Top bowlers vs selected batter (by wicket prob).
+        Top batters vs selected bowler (by exp runs).
+        Pressure Index rankings.
+
+Tab 6 — Phase 3: Narrative (2024 final)
+  What: ICC match centre / video links, ball-by-ball commentary,
+        optional ASR transcript lines for the same balls.
+
+Sidebar:
+  Batting Team → filter batter list (22 teams)
+  Select Batter → choose batter (default: JC Buttler)
+  Bowling Team → filter bowler list (independent)
+  Select Bowler → specific matchup or "Any/Overall"
+  Outcome Models checkboxes → 6 model toggles
+  Sentiment radio → 3 sentiment model choices
+  Analyze button → refresh everything
+
+----------------------------------------------------------------------
+DOCUMENTATION FILES
+----------------------------------------------------------------------
+Location: Sports_analytics/DOCS/
+
+SUMMARY.md / SUMMARY.txt
+  This file. Quick reference for everything.
+
+01_Data_and_Model_Creation.md
+  HOW the data was built (API → CSV pipeline, every column explained),
+  WHY those columns were chosen, all 8 model architectures with
+  input/output details.
+  Read this if: you want to understand the data and model design.
+
+02_Phase_Model_Documentation.md
+  DEEP DIVE into each phase: training params, accuracy tables,
+  feature importance, Phase1 vs Phase2 comparison, 6 key insights.
+  Includes a cross-phase improvement table.
+  Read this if: you want to understand results and metrics.
+
+03_UI_Guide_with_Screenshots.md  (+ .docx)
+  WALKTHROUGH of the app: every tab, every number, every dropdown
+  explained with annotated screenshots.
+  Read this if: you need to understand or demo the app.
+
+04_Presentation_Guide.md
+  READY-TO-USE presenter script: 2-min overview, talking points
+  per tab, tough Q&A answers, key numbers cheat sheet.
+  Read this if: you are presenting this project.
+
+DOCX versions: DOCS/docx/  (Word format with embedded screenshots)
+Screenshots:   DOCS/screenshots/  (8 PNGs: overview, sidebar, tabs 1-6)
+
+----------------------------------------------------------------------
+KEY NUMBERS TO REMEMBER
+----------------------------------------------------------------------
+  Deliveries analysed:     33,662
+  With commentary:         27,872
+  Matches:                   149
+  Teams:                      22
+  Batters:                   450
+  Bowlers:                   308
+  Batter-bowler pairs:     7,019
+  Pairs with sentiment:    5,546
+  Best outcome accuracy:   54.6%  (LSTM)
+  Phase gain P1 → P2:      +4.43%
+  VADER accuracy:          18.8%
+  BiLSTM accuracy:         96.8%
+  Dot ball importance:     21.7%  (2nd most important Phase 2 feature)
+
+----------------------------------------------------------------------
+SURPRISING INSIGHTS
+----------------------------------------------------------------------
+1. dot_pct (how often commentary mentions "pushed/defended/blocked") is
+   the 2nd most important Phase 2 feature — more than any batting stat.
+   Commentary language predicts better than traditional statistics.
+
+2. VADER completely fails for cricket (18.8%) — general NLP does not
+   understand domain-specific language like "beaten outside off".
+
+3. Random Forest has the LOWEST accuracy (31.4%) but highest recall for
+   rare outcomes (wickets) — useful when you care more about catching
+   wickets than average accuracy.
+
+4. LSTM outperforms LightGBM by 8+ points — sequence context from the
+   last 6 balls is genuinely predictive, not just noise.
+
+----------------------------------------------------------------------
+END OF SUMMARY
+======================================================================
