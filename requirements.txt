@@ -22,12 +22,3 @@ torch>=2.1.0
 # Phase 2 VADER sentiment baseline (import: vaderSentiment)
 vaderSentiment>=3.3.2
 
---- Optional: documentation (Word export)
-python-docx>=1.1.0
-
---- Optional: screenshot automation (then run: playwright install chromium)
-playwright>=1.40.0
-
---- Optional: Phase 3 download_and_transcribe.py (needs ffmpeg on PATH)
-yt-dlp>=2024.3.0
-openai-whisper
