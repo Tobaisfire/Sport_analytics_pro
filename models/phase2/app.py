@@ -568,7 +568,7 @@ Data source: ICC T20 World Cup 2021, 2022, 2024 (27,871 deliveries, 99.9% commen
                     })
                     .background_gradient(subset=["Phase 1 %", "Phase 2 %"],
                                          cmap="Purples", vmin=0, vmax=60)
-                    .applymap(
+                    .map(
                         lambda v: "color:#e53935" if isinstance(v, float) and v < 0
                         else "color:#43a047" if isinstance(v, float) and v > 0 else "",
                         subset=["Diff (P2-P1)"],

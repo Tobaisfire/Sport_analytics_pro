@@ -304,7 +304,7 @@ def main():
             .format(fmt_dict)
             .background_gradient(subset=["Empirical %", "XGBoost %"],
                                   cmap="Blues", vmin=0, vmax=50)
-            .applymap(lambda v: "color: #e53935" if isinstance(v, float) and v < 0
+            .map(lambda v: "color: #e53935" if isinstance(v, float) and v < 0
                       else "color: #43a047" if isinstance(v, float) and v > 0 else "",
                       subset=["Diff (XGB-Emp)"]),
             use_container_width=True,

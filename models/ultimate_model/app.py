@@ -975,7 +975,7 @@ def main():
                 })
                 .background_gradient(subset=["P2 Augmented %"],
                                      cmap="Purples", vmin=0, vmax=60)
-                .applymap(
+                .map(
                     lambda v: "color:#e53935" if isinstance(v, float) and v < 0
                     else "color:#43a047" if isinstance(v, float) and v > 0 else "",
                     subset=["P2 vs P1 diff"],
